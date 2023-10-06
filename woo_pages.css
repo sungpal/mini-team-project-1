@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Press+Start+2P&display=swap');
+
+
+*:lang(en) {
+
+  font-family: 'Press Start 2P', cursive;
+
+}
+
+*:lang(ko-KR) {
+
+  font-family: 'Black Han Sans', sans-serif;
+
+}
+
+
+
+.main {
+  border: outset black;
+  margin: 50px 500px;
+  background-color: white;
+}
+
+a:hover {
+  background-color: #e8edf0;
+  color: #353535;
+}
+
+a:visited {
+  color: #a8aaab;
+}
+
+.first_introduce {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  height: auto;
+}
+
+.first_introduce>img {
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  border: dashed grey;
+  padding: 10px;
+}
+
+.first_introduce>ul {
+  padding: 0;
+  margin: auto;
+  text-align: left;
+  font-size: 20px;
+  border: dashed gray;
+  width: 500px;
+  height: 300px;
+  padding: 40px 10px 0px 50px;
+}
+
+.first_introduce>ul>li {
+  margin-bottom: 50px;
+}
+
+.second_introduce {
+  text-align: center;
+  padding: 50px 50px;
+}
+
+.second_introduce p {
+  font-size: 30px;
+}
+
+.second_introduce ul {
+  padding: 0;
+  margin: 10px 0px 10px 10px;
+  font-size: 20px;
+  list-style: none;
+}
+
+.first_introduce>ul>li {
+  margin-bottom: 50px;
+}
+
+#postingbox .mypostingbox {
+  width: 500px;
+  margin: 20px auto 20px auto;
+
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 5px;
+  display: none;
+}
+
+.mycards{
+  width: 500px;
+  margin: 20px auto 20px auto;
+
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 5px;
+  display: none;
+}
+.form-floating>input {
+  background-color: transparent;
+  color: black;
+}
+
+.form-floating>label {
+  color: black;
+}
+
+.input-group>label {
+  background-color: transparent;
+  color: black;
+}
+
+.recommend {
+  text-align: center;
+}
+
+#recommend_btn:hover::after {
+  content: "클릭하시면 추천하는 드라마, 영화를 보실 수 있습니다";
+  position: absolute;
+  font-size: 20px;
+  background-color: #333;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 5px;
+  top: 685px;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  z-index: 1;
+}
+#recommend_btn:hover::after {
+  opacity: 1;
+}
+
+#postingbtn:hover::after {
+  content: "이것도 추천합니다!";
+  position: absolute;
+  font-size: 20px;
+  background-color: #333;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 5px;
+  top: 2023px;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  z-index: 1;
+}
+#postingbtn:hover::after {
+  opacity: 1;
+}
+
+.mycards {
+  width: 1200px;
+  margin: 20px auto 20px auto;
+}
+
+.container .mycards{
+  border: outset black;
+}
